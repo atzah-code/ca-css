@@ -1,0 +1,33 @@
+/* === 1. GLOBAL BASE STYLES === */
+/* Set typography first so everything inherits beautifully */
+h1, h2, p, li {
+  font-family: Helvetica, Arial, sans-serif; /* Added fallbacks so the browser doesn't panic if Helvetica is missing */
+}
+
+img {
+  height: 250px;
+  width: auto; /* Good practice to keep aspect ratio intact */
+}
+
+/* === 2. COMPONENT STYLES === */
+.description {
+  font-size: 20px;
+}
+
+#cook-time {
+  font-weight: bold;
+}
+
+.ingredients li {
+  list-style: square;
+}
+
+/* === 3. SPECIFIC UTILITIES (Unshackled from their HTML elements) === */
+.time {
+  color: gray; /* Now works on spans, divs, or paragraphs! */
+}
+
+/* Stripped the bloated 'p.citation' prefix for peak performance */
+.external-link {
+  color: SeaGreen; 
+}
