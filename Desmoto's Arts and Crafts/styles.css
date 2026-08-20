@@ -1,5 +1,4 @@
-/*font-family is only placed in the body selector so that all elements inher
-it the same font-family. This is a good practice to avoid repetition and ensure consistency across the website.*/
+/*font-family is only placed in the body selector so that all elements inherit the same font-family. This is a good practice to avoid repetition and ensure consistency across the website.*/
 body {
 font-family: Helvetica, Arial, sans-serif;
 }
