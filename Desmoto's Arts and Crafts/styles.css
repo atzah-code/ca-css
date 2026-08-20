@@ -1,20 +1,23 @@
+/*font-family is only placed in the body selector so that all elements inher
+it the same font-family. This is a good practice to avoid repetition and ensure consistency across the website.*/
 body {
 font-family: Helvetica, Arial, sans-serif;
 }
 
+/*display:inline-block is changed to :block so the header takes up the full width of the screen instead of being constrained to h1 width*/
 header {
-    display: inline-block;
-    font-family: Helvetica, sans-serif;
-    font-size: 100px;
-    font-weight: bold;
+    display: block;
     color: khaki;
     text-align: center;
     background-image: url('images/pattern.jpeg');
     margin-bottom: 40px;
 }
 
+/*all text related CSS is now placed under h1 except text-align which is layout related and is placed under header.*/
 h1 {
     margin: 0;
+    font-size: 100px;
+    font-weight: bold;
 }
 
 .banner {
@@ -32,9 +35,7 @@ h1 {
 .paint {
     background-color: lightblue;
 }
-
 .price {
-    font-family: Helvetica, sans-serif;
     font-weight: bold;
     color: blue;
 }
